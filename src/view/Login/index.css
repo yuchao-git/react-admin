@@ -1,0 +1,84 @@
+.login-view {
+    /* 火狐不支持background-size的连写 */
+    height: 100vh;
+    background: center no-repeat;
+    background-size: cover;
+}
+.header {
+    height: 4rem;
+}
+.header img {
+    height: 100%;
+    vertical-align: top;
+}
+.header .container {
+    position: relative;
+    padding-left: 6rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.header .container img {
+    height: 3rem;
+}
+.header .container h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0 1rem;
+    color: white;
+    position: relative;
+    top: 0.3rem;
+}
+.body {
+    height: calc(100vh - 8rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body .login {
+    padding: 1.5rem 2rem;
+    background-color: white;
+    width: 20rem;
+}
+.body .login .login-header {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin: 0.5rem 0 1rem;
+    font-size: 1.2rem;
+}
+.body .login .describe {
+    font-size: 0.5rem;
+    line-height: 1.5rem;
+}
+.login-form-button {
+    width: 100%;
+}
+.login-view .ant-form-item {
+    margin-bottom: 0.7rem;
+}
+.login-header img {
+    height: 2rem;
+}
+.login-header span {
+    padding-left: 0.5rem;
+    letter-spacing: 5px;
+}
+.login-view .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+.login-view .footer a {
+    color: white;
+}
+.ant-form-explain-holder {
+    display: none;
+}
+
+.login-input input,
+.login-input-captcha
+ {
+    line-height: 16px !important;
+}

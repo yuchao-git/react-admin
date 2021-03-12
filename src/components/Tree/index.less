@@ -1,0 +1,23 @@
+.treePage {
+  display: flex;
+  height: calc(~"100vh - 7.1rem");
+  padding: 0.5rem;
+  .treeBox {
+    width: 30%;
+    border: 1px solid #f5e5e5;
+    overflow: auto;
+  }
+  .formBox {
+    padding: 0.5rem;
+    margin-left: 0.2rem;
+    width: calc(~"70% - 0.2rem");
+    border: 1px solid #f5e5e5;
+  }
+}
+
+.ant-tree.ant-tree-show-line li span.ant-tree-switcher{
+  color: black!important;
+}
+.ant-tree.ant-tree-show-line li:not(:last-child)::before{
+  border-left: 1px solid #403939!important;
+}

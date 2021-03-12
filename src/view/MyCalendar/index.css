@@ -1,0 +1,57 @@
+.my_calendar {
+  position: relative;
+}
+.date {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+.date .isWork {
+  padding-top: 0.7rem;
+  text-align: center;
+}
+.date .isWork.no-work {
+  color: red;
+}
+.date .dateNum {
+  text-align: left;
+}
+.date .work-type {
+  position: absolute;
+  width: 3.5rem;
+  height: 3.5rem;
+  bottom: -2.5rem;
+  right: -2rem;
+  background-color: #adadad;
+  transform: rotate(45deg);
+}
+.date .work-type.stop-work {
+  background-color: #64cc95;
+}
+.date .work-type.work {
+  background-color: #3d76d3;
+}
+.date .work-type.to-leave {
+  background-color: #f1b150;
+}
+.date .work-type span {
+  text-indent: -0.4rem;
+  text-align: left;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  transform: rotate(-45deg);
+}
+.date:hover {
+  box-shadow: 0 0 3px 3px #dde3e7;
+}
+.select_factory_box {
+  display: flex;
+  position: absolute;
+  top: 11px;
+  left: 16px;
+}
+.select_factory_box .ant-form-item-control-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}

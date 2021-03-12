@@ -1,0 +1,39 @@
+.lab{
+    // display: flex;
+    // .bedtable_box{
+    //     width: 27rem;
+    // }
+    .detailtable_box{
+        margin-top: 1rem;
+    }
+    input,select{
+        width: 100%;
+    }
+    th,td{
+        padding: 5px!important;
+    }
+}
+.size_modal{
+    display: flex;
+    height: 10rem;
+    .size_left,.size_right{
+        width: calc(~'100% - 3rem');
+        border: 1px solid;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .active{
+            background-color: red;
+        }
+        
+    }
+    .size_active{
+        width: 2rem;
+        margin: 0 0.5rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+

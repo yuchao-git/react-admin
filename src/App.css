@@ -1,0 +1,39 @@
+.App {
+    position: relative;
+}
+.main_mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    z-index: 10000;
+}
+.main_mask.active {
+    -js-display: flex;
+    display: flex;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.ant-form-explain {
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 5px;
+    font-size: 12px;
+    background: white;
+    border-radius: 5px;
+}
+.app-spin-title {
+    font-size: 16px;
+    padding-left: 7px;
+    color: #1f92ff;
+    line-height: 20px;
+}

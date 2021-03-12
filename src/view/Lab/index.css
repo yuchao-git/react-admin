@@ -1,0 +1,35 @@
+.lab .detailtable_box {
+  margin-top: 1rem;
+}
+.lab input,
+.lab select {
+  width: 100%;
+}
+.lab th,
+.lab td {
+  padding: 5px!important;
+}
+.size_modal {
+  display: flex;
+  height: 10rem;
+}
+.size_modal .size_left,
+.size_modal .size_right {
+  width: calc(100% - 3rem);
+  border: 1px solid;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.size_modal .size_left .active,
+.size_modal .size_right .active {
+  background-color: red;
+}
+.size_modal .size_active {
+  width: 2rem;
+  margin: 0 0.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

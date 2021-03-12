@@ -1,0 +1,22 @@
+.search-content {
+    background: rgba(247, 247, 247, 1);
+    padding: 20px;
+    border: 1px solid #e8e8e8;
+}
+.search-form .ant-form-item-control-wrapper {
+    flex: 1;
+}
+
+.search-form .ant-form-item {
+    margin-bottom: 5px;
+    display: flex;
+    padding: 0 10px;
+}
+
+.search-form button {
+    font-size: 14px;
+}
+
+.table-select-info{
+    margin-bottom: 10px !important;
+}

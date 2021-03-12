@@ -1,0 +1,56 @@
+.main_body .header {
+  display: flex;
+  height: 2rem;
+  padding: 0;
+  background-color: #193754!important;
+}
+.main_body .header .logo {
+  width: 8.5rem;
+  display: flex;
+  justify-content: center;
+}
+.main_body .header .logo img {
+  width: 6rem;
+}
+.main_body .header .menu {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 10rem);
+}
+.main_body .header .menu .active_box {
+  display: flex;
+  cursor: pointer;
+}
+.main_body .header .menu .active_box > div {
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-right: 0.5rem;
+  color: white;
+}
+.main_body .ant-menu-horizontal {
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.main_body .ant-menu-horizontal .ant-menu-item {
+  color: white;
+  top: 0;
+  vertical-align: baseline;
+}
+.main_body .ant-menu-horizontal .ant-menu-item a {
+  color: white !important;
+}
+.main_body .ant-menu-horizontal .ant-menu-item-selected,
+.main_body .ant-menu-horizontal .ant-menu-item-active,
+.main_body .ant-menu-horizontal .ant-menu-item-selected:hover {
+  border: none !important;
+  background-color: #40535d!important;
+  color: white!important;
+}
+.main_body .ant-menu-horizontal .ant-menu-item-selected a,
+.main_body .ant-menu-horizontal .ant-menu-item-active a,
+.main_body .ant-menu-horizontal .ant-menu-item-selected:hover a {
+  color: white !important;
+}
+.ant-popover-inner-content {
+  cursor: pointer;
+}

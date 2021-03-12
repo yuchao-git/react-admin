@@ -1,0 +1,46 @@
+.page_title {
+  padding: 0.2rem;
+  font-size: 1rem;
+  position: relative;
+  border-bottom: 1px solid #d3d3d3;
+  display: flex;
+  justify-content: flex-end;
+}
+.page_title .button_active {
+  display: flex;
+  align-items: center;
+}
+.page_title .button_active > span {
+  display: inherit;
+}
+.page_title .button_active .ant-upload-list {
+  display: none;
+}
+.page_title .button_active button {
+  margin-left: 0.5rem;
+  color: #47b0ff;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 0;
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid #47b0ff;
+  border-radius: 1rem;
+  background-color: transparent;
+  height: 1.2rem;
+  font-size: 0.6rem;
+  line-height: 0.6rem;
+  font-weight: bold;
+}
+.page_title .search {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: none;
+  margin-top: 1.7rem;
+  z-index: 8;
+}
+.page_title .search.active {
+  display: block;
+}

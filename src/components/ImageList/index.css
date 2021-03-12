@@ -1,0 +1,22 @@
+.bed_code {
+  display: flex;
+  flex-flow: wrap;
+}
+.bed_code .box {
+  width: 25%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bed_code .box .image_box {
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+}
+.bed_code .box img {
+  width: 100%;
+  height: 100%;
+}

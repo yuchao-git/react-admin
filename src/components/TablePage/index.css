@@ -1,0 +1,118 @@
+.page-title{
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid silver;
+    padding: 0 0 10px 20px;
+    margin-bottom: 20px;
+}
+.wrapper-table-container{
+    min-width: 100%;
+    overflow: auto;
+    padding: 0.5rem 0.5rem 0;
+}
+.wrapper-table-header{
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 10px;
+}
+
+.table-total{
+    line-height: 32px;
+    padding-left: 20px;
+}
+
+.table-inner-control span{
+    margin: 0 5px;
+    color:#00bcd4;
+    cursor: pointer;
+}
+.table-inner-control .ant-upload-list{
+    display: none;
+}
+.ant-dropdown-menu-item .ant-upload-list{
+    display: none;
+}
+.ant-dropdown-menu-item button{
+    border: none;
+    padding: 0;
+}
+.table-inner-control .ant-upload.ant-upload-select button{
+    border: none;
+    padding: 0;
+}
+.table-control button{
+    margin-left: 10px;
+}
+
+.table-control .ant-upload-list{
+    display: none;
+}
+.ant-radio-button-wrapper{
+    margin-left: 0.5rem!important;
+}
+thead{
+    /* border-bottom: 2px solid #B7E0FE; */
+}
+button.save{
+    background-color: #00bcd4!important;
+    color: white!important;
+}
+.td_overflow{
+    overflow: hidden;
+    white-space : nowrap;
+    text-overflow : ellipsis;
+}
+
+.red{
+    background: rgb(247, 202, 202)!important;
+}
+.blue{
+    background: rgb(218, 212, 236)!important;
+}
+.yellow{
+    background: rgb(249, 245, 196)!important;
+}
+
+
+.user_select,.user_select td{
+    background: rgb(249, 245, 196)!important;
+}
+.user_click,.user_click td{
+    background: rgb(218, 212, 236)!important;
+}
+
+.show_image .ant-modal-confirm-btns,
+.show_image .ant-modal-confirm-body>:not(.ant-modal-confirm-content)
+{
+    display: none;
+}
+.show_image .ant-modal-content{
+    background: rgba(0,0,0,0);
+    border: none;
+    box-shadow: none;
+}
+
+.ant-table-fixed-right,.ant-table-fixed-left{
+    z-index: 1!important;
+}
+
+.wrapper-main-body th,.wrapper-main-body td{
+    padding: 5px!important;
+}
+
+.ant-table-pagination.ant-pagination{
+    margin:5px 0!important;
+}
+
+.ant-table-bordered .ant-table-thead > tr > th, .ant-table-bordered .ant-table-tbody > tr > td{
+    border-right: 1px solid #9c9a9a!important;
+}
+.ant-table-bordered .ant-table-header > table, .ant-table-bordered .ant-table-body > table, .ant-table-bordered .ant-table-fixed-left table, .ant-table-bordered .ant-table-fixed-right table{
+    border: 1px solid #9c9a9a!important;
+}
+.ant-table-tbody > tr > td{
+    border-bottom: 1px solid #9c9a9a!important;
+}
+.ant-table-fixed-right{
+    box-shadow: none;
+}
